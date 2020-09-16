@@ -1,0 +1,33 @@
+/*Crie um programa em javascrip que calcula a média de um estudante a partir da nota de 3 provas.
+Requisitos: Com Entrada de dados, saída de dados na janela e no console.*/
+
+var n1 = parseFloat(window.prompt("Qual a primeira nota? "))
+var n2 = parseFloat(window.prompt("Qual a segunda nota? "))
+var n3 = parseFloat(window.prompt("Qual a terceira nota? "))
+var media = (n1 + n2 + n3)/3
+
+alert("Sua media é: " + media)
+
+/*Crie um programa que calcula o 13º salário de um funcionário.
+Requisitos: Com Entrada de dados, saída de dados na janela e no console*/
+
+var salario = parseFloat(window.prompt("Qual seu salario? "))
+var meses = parseFloat(window.prompt("Quandos meses trabalhou no ano?"))
+var decimoSalario = (salario/12)*meses
+
+alert("Seu 13º Salario é: "+decimoSalario)
+
+/*Crie um programa que calcula um imposto de 0.3% sob o valor de uma compra online.
+Requisitos: Com Entrada de dado, saída de dados na tela e no console, use uma função para calcular o imposto.*/
+
+var compra = parseFloat(window.prompt("Qual valor da sua comprar? "))
+var imposto = (compra * 0.3)/100
+alert("Imposta a ser pago é: "+imposto)
+
+/*Crie um programa que calcula o IMC de alguém.
+Requisitos: Entrada de dados e saída de dados na tela e no console.*/
+
+var peso = parseFloat(window.prompt("Qual seu peso? "))
+var altura = parseFloat(window.prompt("Qual sua altura ? "))
+var imc = peso /(altura * altura)
+alert("IMC: "+imc)
